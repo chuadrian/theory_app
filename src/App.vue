@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <h1>Computer Knowledge Quiz</h1>
+    <h1>Computer Knowledge Theory Section</h1>
+    <h3>Welcome Aasia</h3>
     <quiz-component v-if="!quizCompleted" @quiz-completed="onQuizCompleted"></quiz-component>
     <results-component v-else :score="score"></results-component>
   </div>
