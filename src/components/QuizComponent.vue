@@ -1,7 +1,7 @@
 <template>
     <div>
       <div v-if="!quizStarted && !quizCompleted">
-        <button @click="startQuiz">Start Quiz</button>
+        <button @click="startQuiz">Start Test</button>
       </div>
       <div v-else-if="quizStarted && !quizCompleted">
         <timer-component :time-remaining="timeRemaining"></timer-component>
